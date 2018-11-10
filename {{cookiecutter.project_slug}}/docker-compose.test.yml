@@ -5,10 +5,8 @@ services:
       context: ./backend
       dockerfile: tests.dockerfile
     command: bash -c "while true; do sleep 1; done"
+    env_file:
+      - env-backend.env
+      - env-couchdb.env
     environment:
       - SERVER_NAME=backend
-      - COUCHDB_SERVER=${COUCHDB_SERVER}
-      - COUCHDB_USER=${COUCHDB_USER}
-      - COUCHDB_PASSWORD=${COUCHDB_PASSWORD}
-      - FIRST_SUPERUSER=${FIRST_SUPERUSER}
-      - FIRST_SUPERUSER_PASSWORD=${FIRST_SUPERUSER_PASSWORD}
