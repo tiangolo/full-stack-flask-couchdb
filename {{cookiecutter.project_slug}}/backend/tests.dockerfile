@@ -1,6 +1,6 @@
 FROM python:3.6
 
-RUN pip install requests pytest tenacity passlib[bcrypt] cloudant==2.9.0
+RUN pip install requests==2.21.0 pytest tenacity==5.0.3 passlib[bcrypt]==1.7.1 cloudant==2.9.0
 
 # For development, Jupyter remote kernel, Hydrogen
 # Using inside the container:

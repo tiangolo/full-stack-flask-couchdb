@@ -1,7 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.6
 
-RUN pip install --upgrade pip
-RUN pip install flask flask-cors raven[flask] celery==4.2.1 passlib[bcrypt] flask-apispec flask-jwt-extended cloudant==2.9.0 tenacity
+RUN pip install flask==1.0.2 flask-cors==3.0.7 raven[flask] celery==4.2.1 passlib[bcrypt]==1.7.1 flask-apispec==0.7.0 apispec==0.39.0 marshmallow==2.18.0 flask-jwt-extended==3.17.0 tenacity==5.0.3 cloudant==2.9.0
 
 # For development, Jupyter remote kernel, Hydrogen
 # Using inside the container:
