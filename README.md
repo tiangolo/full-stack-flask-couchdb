@@ -25,7 +25,7 @@ They both have more features than this one.
 
 ### Note
 
-If you are still interested in CouchDB and would like to have a project generator based on FastAPI, please create a new issue to let me know.
+If you are still interested in CouchDB and would like to have a project generator based on FastAPI, please create a new issue to let me know. I'm currently not having enough work "bandwidth" to create a project generator based on FastAPI and CouchDB, but I could change my mind if there are many users requesting it, etc. 🙂
 
 ## ⚠️ DEPRECATION WARNING ⚠️
 
