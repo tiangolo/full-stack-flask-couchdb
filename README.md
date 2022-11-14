@@ -1,3 +1,11 @@
+## 🚨 DEPRECATION WARNING 🚨
+
+As [**FastAPI**](https://github.com/tiangolo/fastapi) and the equivalent project generators provide a much better solution to all the use cases this project was built for, all the future development will be done there.
+
+If you are starting a new project from scratch, check the alternatives at the [FastAPI docs: Project Generation](https://fastapi.tiangolo.com/project-generation/).
+
+You are still free to use this project, but it won't receive any new features, changes, or bug fixes.
+
 # Full Stack Flask CouchDB - project generator
 
 [![Build Status](https://travis-ci.org/tiangolo/full-stack-flask-couchdb.svg?branch=master)](https://travis-ci.org/tiangolo/full-stack-flask-couchdb)
@@ -26,12 +34,6 @@ They both have more features than this one.
 ### Note
 
 If you are still interested in CouchDB and would like to have a project generator based on FastAPI, please create a new issue to let me know. I'm currently not having enough work "bandwidth" to create a project generator based on FastAPI and CouchDB, but I could change my mind if there are many users requesting it, etc. 🙂
-
-## ⚠️ DEPRECATION WARNING ⚠️
-
-As **FastAPI** and the equivalent project generators provide a much better solution to all the use cases this project was built for, all the future development will be done there.
-
-You are still free to use this project, but it won't receive any new features, changes, or bug fixes.
 
 ---
 
